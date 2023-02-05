@@ -18,10 +18,10 @@ docker-compose exec web python manage.py migrate
 docker-compose exec web python manage.py createsuperuser
 ```
 Адреса:
-`http://localhost/admin` - админ панель;
-`http://localhost/swagger-ui/` - документация по api;
-`http://localhost/api/performer` - доступ к исполнителям через api;
-`http://localhost/api/album` - доступ к альбомам через api;
+`http://localhost/admin` - админ панель;\
+`http://localhost/swagger-ui/` - документация по api;\
+`http://localhost/api/performer` - доступ к исполнителям через api;\
+`http://localhost/api/album` - доступ к альбомам через api;\
 `http://localhost/api/song` - доступ к песням через api.
 
 ## Переменные окружения 
