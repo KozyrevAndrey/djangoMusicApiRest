@@ -1,6 +1,6 @@
 # Django REST API for music albums with Docker
 
-### Stack: Django, Djangorestframework, Swagger, Docker
+### Stack: Django, Djangorestframework, Swagger, Docker, Gunicorn, Nginx
 
 ## Инструкция по запуску
 
