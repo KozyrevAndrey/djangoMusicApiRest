@@ -4,7 +4,7 @@
 
 ## Инструкция по запуску
 
-1. Клонируем репозиторий `git clone https://github.com/`
+1. Клонируем репозиторий `git clone https://github.com/](https://github.com/KozyrevAndrey/djangoMusicApiRest.git`
 2. Запускаем проект командой `docker compose up`
 
 ## Переменные окружения 
