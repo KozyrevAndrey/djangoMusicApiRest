@@ -6,6 +6,8 @@
 
 1. Клонируем репозиторий `git clone https://github.com/](https://github.com/KozyrevAndrey/djangoMusicApiRest.git`
 2. Создаем свой `.env`, где прописываем необходимые переменные окружения
+3. Переходим на сайт генерация ключа django `https://djecrety.ir/`
+4. Вставляем полученный ключ в переменные окружения .env
 3. Запускаем проект командой `docker compose up`
 
 ## Переменные окружения 
