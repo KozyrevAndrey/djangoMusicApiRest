@@ -17,7 +17,7 @@ docker-compose exec web python manage.py makemigrations
 docker-compose exec web python manage.py migrate
 docker-compose exec web python manage.py createsuperuser
 ```
-Адреса:
+Адреса:\
 `http://localhost/admin` - админ панель;\
 `http://localhost/swagger-ui/` - документация по api;\
 `http://localhost/api/performer` - доступ к исполнителям через api;\
