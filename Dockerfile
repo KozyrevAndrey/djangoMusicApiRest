@@ -18,8 +18,3 @@ RUN python3 -m pip install --no-cache-dir --no-warn-script-location --upgrade pi
 # copy project
 COPY . .
 
-
-ADD docker-entrypoint.sh /docker-entrypoint.sh
-RUN chmod a+x /docker-entrypoint.sh
-ENTRYPOINT ["/docker-entrypoint.sh"]
-CMD ["start"]
