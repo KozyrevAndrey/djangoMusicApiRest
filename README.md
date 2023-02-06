@@ -14,7 +14,9 @@
 ```
 docker-compose exec web python manage.py collectstatic
 docker-compose exec web python manage.py makemigrations
+docker-compose exec web python manage.py makemigrations musicApi
 docker-compose exec web python manage.py migrate
+docker-compose exec web python manage.py migrate musicApi
 docker-compose exec web python manage.py createsuperuser
 ```
 Адреса:\
